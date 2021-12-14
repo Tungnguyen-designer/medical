@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+header{
+    background-image: url(bgr-header.png);
+}
+header .navbar-nav{
+    display: flex;
+    text-decoration: none;
+}
+header .navbar-nav .nav-link{
+    color: #737373;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+header .navbar-nav .nav-link:hover{
+    color: #FF685B;
+    
+}
+header .navbar-nav .active{
+    color: #FF685B;
+}
+header .button .btn-custom{
+    background-color: #FF685B;
+    color: #FFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px 25px;
+    margin-left: 45px;
+}
+header .button .btn-text-custom{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FF685B ;
+}
+.banner .small-title{
+    color: #FF685B;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 35px 0px;
+}
+.banner .large-title{
+    color: #252B42;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    margin: 35px 0px;
+}
+.banner .sub{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #737373;
+    margin: 35px 0px;
+}
+.button-banner .btn-get-custom{
+    background-color: #FF685B;
+    color: #FFF;
+    padding: 15px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+}
+.button-banner .btn-get-custom:hover{
+    background-color: #FF685B;
+    color: #FFF;
+    padding: 15px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 10px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    top: 5px;
+}
+.button-banner .btn-outline-custom{
+    border-color: #FF685B ;
+    color: #FF685B;
+    padding: 15px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    transition-duration: 0.4s;
+}
+.button-banner .btn-outline-custom:hover{
+    background-color: #FF685B;
+    color: #FFF;
+    padding: 15px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+}
+.banner .card{
+    background-color: #FFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border: none !important;
+    margin: 80px 0;
+}
+.banner .card .card-body-custom{
+    padding: 35px 40px;
+    
+}
+.card-body-custom .card-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    margin: 20px 0px;
+}
+.card-body-custom .card-sub{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    margin: 20px 0px;
+}
+.card-body-custom hr{
+    background: #E74040;
+    width: 50px;
+    height: 2px !important;
+}
+.stats .stats-custom .number{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    color: #FF685B;
+    margin: 0;
+
+}
+.stats .stats-custom .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    margin: 0;
+
+}
+.stats .stats-custom{
+    margin: 80px 30px;
+}
+.meet-our-experts hr{
+    width: 94px;
+    height: 7px !important;
+    background: #E74040;
+}
+.meet-our-experts .large-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #252B42;
+    margin: 35px 0;
+}
+.meet-our-experts .sub{
+    width: 346px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    margin: 35px 0;
+}
+.meet-our-experts a{
+    text-decoration: none;
+    color: #FF685B;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+.meet-our-experts{
+    margin: 160px 0;
+}
+.our-department .heading-title .small-title{
+    color: #FF685B;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.our-department .heading-title .large-title{
+    color: #252B42;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.our-department .heading-title .sub{
+    width: 463px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.our-department{
+    background-color: #E5F9F7;
+    padding: 80px 0 160px;
+}
+.our-department .our-department-body{
+    margin: 80px 0 160px;
+}
+.our-department .heading-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 80px;
+    
+}
+.our-department .card{
+    border: none;
+}
+.our-department .card .badge{
+    position: absolute;
+    background-color: #FF685B;
+    margin: 20px 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 10px;
+}
+.our-department .card-body-custom .image{
+    display: flex;
+    position: relative;
+}
+.our-department .our-department--card .card .icon{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.our-department .card-content{
+    padding: 25px;
+}
+.our-department .card-content .rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px
+}
+.our-department .card-content .rate .rate-item{
+    background: #26335D;
+    border-radius: 20px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px;
+    margin: 0;
+}
+.our-department .card-content .small-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FF685B;
+    margin: 0;
+}
+.our-department .card-content .large-title{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #26335D;
+}
+.our-department .card-content .sub-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    margin: 10px 0;
+}
+.our-department .card-content .sales{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    margin: 10px 0px;
+}
+.our-department .card-content .sales .iconify{
+    margin-right: 5px;
+}
+.our-department .card-content .prices{
+    display: flex;
+    margin: 10px 0px
+}
+
+.our-department .card-content .price-real{
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BDBDBD;
+    margin: 0 10px 0 0;
+}
+.our-department .card-content .price-discount{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5AACA8;
+    margin: 0;
+}
+.our-department .card-content .btn-outline-custom{
+    border-color: #FF685B;
+    border-radius: 37px;
+    color: #FF685B;
+    padding: 10px 20px ;
+    transition-duration: 0.8s;
+}
+.our-department .card-content .btn-outline-custom:hover{
+    background-color: #FF685B;
+    color: #FFF;
+}
+.leading-medicine .heading-title .small-title{
+    color: #FF685B;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 10px 0px;
+}
+.leading-medicine .heading-title{
+    margin: 80px 0 160px;
+}
+.leading-medicine .heading-title .large-title{
+    color: #252B42;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 10px 0px;
+}
+.leading-medicine .heading-title .sub{
+    width: 463px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    margin: 10px 0px;
+}
+.leading-medicine .card{
+    margin-bottom: 80px;
+    border: none;
+}
+.leading-medicine .card .star-rating{
+    margin: 25px 15px 0;
+    padding: 0 69px;
+}
+.leading-medicine .card .star-rating .star-rating--ic{
+    margin-bottom: 15px;
+}
+.leading-medicine .card .star-rating .star-rating--p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+}
+.leading-medicine .card .avatar-profile{
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 25px;
+}
+.leading-medicine .card .avatar-profile img{
+    margin-right: 15px;
+}
+.leading-medicine .card .avatar-profile a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FF685B;
+}
+.leading-medicine .card .avatar-profile h6{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #252B42;
+}
+.our-team .heading-title .small-title{
+    color: #FF685B;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 10px 0px;
+}
+.our-team .heading-title{
+    margin: 80px 0;
+}
+.our-team .heading-title .large-title{
+    color: #252B42;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+.our-team .heading-title .sub{
+    width: 463px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    margin: 10px 0px;
+}
+.our-team .card{
+    border-radius: 20px 20px;
+    background-color: #FFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border: none !important;
+    margin-bottom: 120px;
+}
+.our-team .card .card-body-custom img{
+    border-radius: 20px 20px 0 0;
+}
+.our-team .card .profile h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+    margin: 30px 0 10px;
+}
+.our-team .card .profile h6{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    margin: 10px;
+}
+.our-team .card .profile .icon{
+    margin: 10px 0 30px;
+}
+.join-us .heading-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 160px 0 80px;
+}
+.join-us .heading-title .small-title{
+    color: #FF685B;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 10px 0px;
+}
+
+.join-us .heading-title .large-title{
+    color: #252B42;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 10px 0px;
+}
+.join-us .heading-title .sub{
+    width: 463px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+    margin: 10px 0px;
+}
+.join-us .form-input{
+    display: flex;
+    margin-bottom: 160px;
+}
+.join-us .form-input .form-control-custom{
+    padding: 15px ;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+}
+.join-us .form-input .btn-email{
+    background: #FF685B;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 15px 22px;
+}
+footer .footer-nav{
+    padding: 50px 0;
+}
+footer .navbar-nav .nav-link{
+    color: #737373;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+footer .navbar-nav .nav-link:hover{
+    color: #b6b6b6 ;
+}
+footer .navbar-nav .nav-item-title{
+    margin: 0;
+    padding-bottom: 20px;
+     
+}
+footer h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+}
+footer .info .nav-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+footer .info .nav-item img{
+    margin-right: 10px;
+}
+footer .info .nav-item h6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    margin: 0;
+}
+.copyright{
+    background-color: #FAFAFA;
+}
+.copyright-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+
+}
+.copyright-content h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+}
+.copyright-content .icon a{
+    text-decoration: none;
+    padding-right: 10px;
+}
