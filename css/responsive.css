@@ -1,77 +1,109 @@
-/* 766px */
-@media only screen and (max-width: 766px) {
+/* 768px */
+@media only screen and (max-width: 768px) {
     .banner .card{
         margin: 40px 0;
     }
   }
-  @media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
+    .banner .large-title{
+        font-size: 45px;
+        line-height: 60px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .banner .sub{
+        font-size: 18px;
+        
+    }
+  }
+  @media only screen and (max-width: 768px) {
     .stats .stats-custom{
         margin: 40px 30px;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .meet-our-experts{
         margin: 40px 0;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .our-department .card{
         margin: 20px 0;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .our-department{
         padding: 40px 0;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .our-department .heading-title{
         margin-bottom: 40px;
         padding-left: 15px;     
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
+    .our-department .heading-title .sub{
+        max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
     .leading-medicine .heading-title{
         margin-bottom: 40px;
     }
   }
-
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
+    .leading-medicine .heading-title .sub{
+        max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
     .leading-medicine .card{
         margin-bottom: 10px;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .our-team .heading-title{
         margin: 40px 0;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
+    .our-team .heading-title .sub{
+        max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
     .our-team .card{
         margin-bottom: 40px;
     }  
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .join-us .heading-title{
-        margin: 40px
+        padding: 0 10px;
+        margin: 0;
     }
   }
-  @media only screen and (max-width: 766px) {
-    .join-us .heading-title{
-        margin: 40px
+  @media only screen and (max-width: 768px) {
+    .join-us .heading-title .sub{
+        max-width: 100%;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .join-us .form-input{
-        margin-bottom: 40px;
+        margin: 40px 0;
     }
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 768px) {
     .copyright-content{
         flex-direction: column;
         align-items: center;
         padding: 25px 0;
     
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .meet-our-experts img{
+        max-width: 100%;
     }
   }
 /* 990px */
@@ -126,16 +158,6 @@
     .our-team .card{
         margin-bottom: 40px;
     }  
-  }
-  @media only screen and (max-width: 990px) {
-    .join-us .heading-title{
-        margin: 40px
-    }
-  }
-  @media only screen and (max-width: 9906px) {
-    .join-us .heading-title{
-        margin: 40px
-    }
   }
   @media only screen and (max-width: 990px) {
     .join-us .form-input{
